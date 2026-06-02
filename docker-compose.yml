@@ -1,6 +1,6 @@
 services:
   app:
-    image: workerbrian/pwf-prak-app:v1.0
+    image: workerbrian/{nama_repo_docker}
     container_name: laravel_app
     restart: always
     ports:
